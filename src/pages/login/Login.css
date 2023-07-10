@@ -1,0 +1,78 @@
+
+:root{
+    --primary-color: #0C0D13;
+    --text-color: white;
+}
+
+
+  .signin-button{
+    color: white !important;
+  }
+
+.signin-button:hover{
+    background-color: #504b4b !important;
+}
+
+
+.login-page{
+    /* background-color: var(--feature-card-pink); */
+    margin-top: 0rem; 
+    padding: 1rem ;
+}
+
+.login-container{
+    box-shadow: 0 1px 2px 2px #2fe917;
+}
+
+.test-credentials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me{
+  cursor: pointer;
+  color: black;
+}
+
+.remember-checkbox{
+  /* display: flex;
+  flex-direction: row; */
+  margin-right: 5px;
+  padding: 0;
+  width: fit-content !important;
+  cursor: pointer;
+}
+
+.forgot-password{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.forgot-password:hover{
+  color: black;
+}
+
+.signin-guest{
+  margin-top: 1rem;
+  background-color: #c9c3c3 !important;
+  color: black !important;
+}
+
+.signin-guest:hover{
+  background-color:#949496 !important;
+}
+
+.new-user{
+  text-align: center;
+  margin-top: 0.6rem;
+  color:#444654;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.new-user:hover{
+  color:#444654;
+}
+
+.goto-signup:hover{
+  color:inherit;
+}

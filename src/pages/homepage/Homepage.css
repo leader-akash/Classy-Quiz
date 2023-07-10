@@ -1,0 +1,29 @@
+
+:root{
+    --primary-color: #0C0D13;
+    --text-color: white;
+}
+
+
+.info-container{
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.info-content{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+}
+
+.info-content-2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: center;
+}

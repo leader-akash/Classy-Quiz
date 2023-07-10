@@ -1,0 +1,17 @@
+:root{
+  --primary-color: #0C0D13;
+  --text-color: white;
+}
+
+.app-container{
+  background-color: var(--primary-color) ;
+  /* height: 57rem; */
+}
+
+p {
+  /* display: block; */
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

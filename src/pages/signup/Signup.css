@@ -1,0 +1,12 @@
+.sign-button{
+    color: white !important;
+  }
+
+.sign-button:hover{
+    background-color: #5c5959 !important;
+}
+
+.signup-form{
+  margin-top: 2rem;
+  box-shadow: 0 1px 2px 2px #2fe917;
+}

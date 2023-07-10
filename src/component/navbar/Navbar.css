@@ -1,0 +1,50 @@
+
+:root{
+    --primary-color: #0C0D13;
+    --text-color: white;
+    --gold-color: gold;
+}
+
+.nav-container{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 1000px;
+    height: 5.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classyquiz{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.brightness{
+    margin: 0 2rem;
+}
+
+.nav-links{
+    margin: 0 1rem;
+    padding: 0 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.login-btn{
+    color: var(--text-color);
+}
+
+.home-btn{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.logo-design{
+    color: var(--gold-color);
+    font-size: 3.7rem;
+    font-style:italic;
+    font-weight: 600;
+}

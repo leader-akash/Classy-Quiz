@@ -1,0 +1,41 @@
+
+:root{
+    --card-color: #282933;
+    --text-color: white;
+    --box-shadow: 0 0px 4px 0px #ccc ;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 1000px;
+    /* height: 5rem; */
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+    margin-top: 3rem;
+}
+
+.footer-line{
+    width: 1000px;
+    /* margin-bottom: 0.5rem; */
+}
+
+.footer-content{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-icon{
+    font-size: 2rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.contact-link{
+    color: white;
+}

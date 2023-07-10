@@ -1,0 +1,47 @@
+
+
+:root{
+    --card-color: #282933;
+    --text-color: white;
+    --box-shadow: 0 0px 4px 0px white ;
+}
+
+.card-container{
+    background-color: var(--card-color);
+    width: 18rem;
+    border-radius: 20px;
+    height: 25rem;
+    text-align: center;
+    margin-left: 2rem;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    border: solid 0.5px transparent;
+}
+
+.card-container:hover{
+    border: solid 0.5px yellow;
+}
+
+.card-img{
+    width: 15rem;
+    height: 12rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+.card-line{
+    width: 16rem;
+}
+
+.quiz-name{
+    color: gold;
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    font-size: 18px;
+    color: var(--text-color);
+    margin: 1rem;
+
+}

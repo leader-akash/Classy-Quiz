@@ -1,0 +1,85 @@
+
+:root{
+    --primary-color: #0C0D13;
+    --text-color: white;
+    --gold-color: gold;
+    --option-color: #33343C;
+    --option-hover: #474850;
+    --fade-gold: yellow;
+}
+
+
+.ques-topic{
+    color: var(--text-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.ques-container{
+    background-color: var(--box-color);
+    width: 550px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 2rem;
+    height: auto;
+    margin-top: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.ques-start{
+    display: flex;
+    justify-content: space-between;
+    margin:0  1.5rem;
+    
+    padding-top: 1rem;
+    font-size: 18px;
+   
+}
+
+.ques-no{
+    color: var(--gold-color);
+    font-size: 20px;
+}
+
+.ques-score{
+    color: var(--gold-color);
+    font-size: 20px;
+}
+
+.option-section{
+    background-color: var(--option-color);
+    margin: 1.5rem 2rem;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 1px 1px 1px white;
+}
+
+.ques-heading{
+    margin: 2rem;
+}
+
+.option-section:hover{
+    cursor: pointer;
+    background-color: var(--option-hover);
+}
+
+.ques-section{
+    display: flex;
+    justify-content: center;
+}
+
+.next-btn{
+    background-color: var(--gold-color);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 7rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.next-btn:hover{
+    background-color: var(--fade-gold);
+}
